@@ -117,7 +117,7 @@ export default function AboutSection({ language }: AboutSectionProps) {
 
       <div className="container mx-auto px-4 relative">
         <div className={`text-center mb-16 section-reveal ${isVisible ? "revealed" : ""}`}>
-          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6">{content[language].title}</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-6">{content[language].title}</h2>
           <p className="text-xl text-blue-600 font-semibold mb-8">{content[language].subtitle}</p>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">{content[language].description}</p>
         </div>

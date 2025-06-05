@@ -59,7 +59,7 @@ export default function ContactSection({ language }: ContactSectionProps) {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // هنا يمكن إضافة منطق إرسال النموذج
+    // هنا يتم إضافة منطق إرسال النموذج إلى قاعدة البيانات أو الخادم
     console.log("Form submitted:", formData)
     alert(language === "ar" ? "تم إرسال رسالتكم بنجاح!" : "Your message has been sent successfully!")
   }
@@ -75,7 +75,7 @@ export default function ContactSection({ language }: ContactSectionProps) {
     <section className="py-20 bg-blue-50" id="contact">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4">{content[language].title}</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">{content[language].title}</h2>
           <p className="text-xl text-blue-600 font-semibold">{content[language].subtitle}</p>
         </div>
 
@@ -171,7 +171,7 @@ export default function ContactSection({ language }: ContactSectionProps) {
             <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
               <h3 className="text-xl font-bold text-blue-900 mb-6">{content[language].info.social}</h3>
               <div className="flex space-x-4 rtl:space-x-reverse">
-                {/* يمكن تعديل الروابط لتوجه إلى حسابات الشركة الفعلية */}
+                {/* يجب تعديل هذه الروابط لتوجه إلى حسابات الشركة الفعلية على وسائل التواصل الاجتماعي */}
                 <a
                   href="#"
                   className="bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-xl"
@@ -193,11 +193,13 @@ export default function ContactSection({ language }: ContactSectionProps) {
               </div>
             </div>
 
-            {/* Map */}
+            {/* خريطة الموقع - يجب استبدال هذا القسم بخريطة Google Maps الفعلية للشركة */}
             <div className="bg-white rounded-2xl shadow-xl p-4 hover:shadow-2xl transition-all duration-300 transform hover:scale-105 h-64 relative overflow-hidden">
               <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
                 <p className="text-gray-500">
-                  {language === "ar" ? "سيتم تحميل الخريطة هنا" : "Map will be loaded here"}
+                  {language === "ar"
+                    ? "سيتم إضافة خريطة Google Maps هنا لموقع الشركة"
+                    : "Google Maps will be added here for company location"}
                 </p>
               </div>
             </div>
