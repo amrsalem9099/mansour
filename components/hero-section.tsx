@@ -114,7 +114,7 @@ export default function HeroSection({ language }: HeroSectionProps) {
       {/* Background Image - يمكن استبدالها بصورة خلفية مناسبة للشركة */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/placeholder.svg?height=800&width=1200"
+          src="/MLOGO.png?height=800&width=1200"
           alt="Mansour Pack Background"
           fill
           className="object-cover opacity-10"
