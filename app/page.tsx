@@ -18,7 +18,7 @@ export default function HomePage() {
   // Sample products data - Replace with actual product data
   const products = [
     { id: 1, name: "ورق A4", image: "/placeholder.svg?height=200&width=200" },
-    { id: 2, name: "بكر كاشير", image: "/placeholder.svg?height=200&width=200" },
+    { id: 2, name: "بكر كاشير", image: "/FAWRY.jpg?height=200&width=200" },
     { id: 3, name: "ورق جريدة", image: "/placeholder.svg?height=200&width=200" },
     { id: 4, name: "ورق تغليف", image: "/placeholder.svg?height=200&width=200" },
     { id: 5, name: "أكياس ورقية", image: "/placeholder.svg?height=200&width=200" },
