@@ -25,7 +25,7 @@ export default function AboutSection({ language }: AboutSectionProps) {
         { icon: CheckCircle, title: "ضمان الجودة", desc: "ضمان شامل على جميع منتجاتنا وخدماتنا" },
       ],
       stats: [
-        { number: 15, label: "سنة خبرة", suffix: "+" },
+        { number: 40, label: "سنة خبرة", suffix: "+" },
         { number: 500, label: "عميل راضي", suffix: "+" },
         { number: 1000, label: "مشروع مكتمل", suffix: "+" },
         { number: 98, label: "نسبة الرضا", suffix: "%" },
@@ -47,7 +47,7 @@ export default function AboutSection({ language }: AboutSectionProps) {
         },
       ],
       stats: [
-        { number: 15, label: "Years Experience", suffix: "+" },
+        { number: 40, label: "Years Experience", suffix: "+" },
         { number: 500, label: "Happy Clients", suffix: "+" },
         { number: 1000, label: "Projects Done", suffix: "+" },
         { number: 98, label: "Satisfaction Rate", suffix: "%" },
