@@ -35,7 +35,7 @@ export default function Header({ language, setLanguage, navigation, isMenuOpen, 
           <div className="flex items-center space-x-3 rtl:space-x-reverse group">
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=50&width=50"
+                src="/MLOGO.png?height=50&width=50"
                 alt="Mansour Pack Logo"
                 width={50}
                 height={50}
