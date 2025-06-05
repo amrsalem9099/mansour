@@ -149,7 +149,7 @@ export default function AboutSection({ language }: AboutSectionProps) {
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-400 rounded-2xl transform rotate-3 group-hover:rotate-6 transition-transform duration-500"></div>
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/POST.png?height=400&width=600"
                 alt="Mansour Pack Factory"
                 width={600}
                 height={400}
