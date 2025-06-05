@@ -117,7 +117,7 @@ export default function HeroSection({ language }: HeroSectionProps) {
           src="/MLOGO.png?height=800&width=1200"
           alt="Mansour Pack Background"
           fill
-          className="object-cover opacity-2"
+          className="object-cover opacity-4"
         />
       </div>
 
